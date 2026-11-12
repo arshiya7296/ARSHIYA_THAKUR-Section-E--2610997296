@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information</title>
+    <style>
+        /* 5. Element selector: change text color of all paragraph elements to dark green */
+        p {
+            color: darkgreen;
+        }
+
+        /* 7. ID selector: change text color of main heading to dark blue */
+        #main-heading {
+            color: darkblue;
+        }
+
+        /* 6. Class selector: set background color of the student info section to light yellow */
+        .student-section {
+            background-color:lightcyan;
+        }
+
+        /* 8. Universal selector: set background color of all HTML elements to grey */
+        * {
+            background-color:lightskyblue;
+        }
+
+        /* 9. Grouping selector: give main heading and all paragraph elements the same text color of brown */
+        #main-heading, p {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-heading">Student Information</h1>
+
+    <!-- 2. Use a div to create a separate section for student details -->
+    <div class="student-section">
+        <!-- 3 & 4. Display student details inside paragraphs using span tags for specific highlights -->
+        <p>Name: <span style="color: blue;">Alex Morgan</span></p>
+        <p>Roll Number: <span style="color: red;">101234</span></p>
+        <p>Course: Computer Science</p>
+        <p>Department: Engineering</p>
+    </div>
+
+</body>
+</html>

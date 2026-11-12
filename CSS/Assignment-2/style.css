@@ -1,0 +1,33 @@
+/*  Universal selector (*) to set text color of all HTML elements to dark grey */
+* {
+    color: lightgray;
+}
+
+/*  Grouping selector to set background color of main heading and paragraphs to light grey */
+h1, p {
+    background-color: lightgrey;
+}
+
+/* Element selector to change text color of all paragraph elements to dark green */
+p {
+    color: darkgreen;
+}
+
+/* Class selector to set background color of event information section to light yellow */
+.event-info {
+    background-color: lightyellow;
+}
+
+/*  ID selector to set background color of the main heading to light blue */
+#fest-heading {
+    background-color: lightblue;
+}
+
+/* Span tags to highlight event name in blue and venue in red */
+.event-highlight {
+    color: blue;
+}
+
+.venue-highlight {
+    color: red;
+}
